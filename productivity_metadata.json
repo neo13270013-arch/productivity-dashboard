@@ -1,0 +1,254 @@
+{
+  "target_column": "productivity_rating",
+  "feature_columns": [
+    "date",
+    "day_of_week",
+    "age",
+    "gender",
+    "occupation",
+    "chronotype",
+    "climate_zone",
+    "weather",
+    "temperature_c",
+    "bedtime",
+    "sleep_hours",
+    "screen_time_hours",
+    "steps",
+    "exercise_minutes",
+    "caffeine_mg",
+    "mood_score",
+    "journal_note"
+  ],
+  "features": {
+    "date": {
+      "type": "categorical",
+      "choices": [
+        "2024-09-04",
+        "2024-08-28",
+        "2025-04-10",
+        "2024-09-11",
+        "2024-08-22",
+        "2024-09-01",
+        "2025-05-02",
+        "2024-08-30",
+        "2024-08-26",
+        "2025-05-01",
+        "2024-09-05",
+        "2025-03-22",
+        "2025-04-15",
+        "2025-04-02",
+        "2025-03-31",
+        "2025-03-24",
+        "2025-04-11",
+        "2024-12-09",
+        "2025-03-27",
+        "2024-09-03",
+        "2024-08-21",
+        "2025-04-13",
+        "2024-09-06",
+        "2025-04-14",
+        "2024-08-25",
+        "2024-09-12",
+        "2024-09-17",
+        "2024-08-23",
+        "2025-04-26",
+        "2024-08-14"
+      ],
+      "default": "2024-08-28"
+    },
+    "day_of_week": {
+      "type": "categorical",
+      "choices": [
+        "Wednesday",
+        "Saturday",
+        "Friday",
+        "Sunday",
+        "Thursday",
+        "Tuesday",
+        "Monday"
+      ],
+      "default": "Wednesday"
+    },
+    "age": {
+      "type": "numeric",
+      "median": 34.0,
+      "min": 18.0,
+      "max": 80.0
+    },
+    "gender": {
+      "type": "categorical",
+      "choices": [
+        "Female",
+        "Male",
+        "Non-binary"
+      ],
+      "default": "Female"
+    },
+    "occupation": {
+      "type": "categorical",
+      "choices": [
+        "Office Worker",
+        "Student",
+        "Remote Worker",
+        "Freelancer",
+        "Healthcare",
+        "Retired",
+        "Manual Labor"
+      ],
+      "default": "Office Worker"
+    },
+    "chronotype": {
+      "type": "categorical",
+      "choices": [
+        "Intermediate",
+        "Early Bird",
+        "Night Owl"
+      ],
+      "default": "Intermediate"
+    },
+    "climate_zone": {
+      "type": "categorical",
+      "choices": [
+        "Temperate Oceanic",
+        "Humid Continental",
+        "Tropical Monsoon",
+        "Mediterranean",
+        "Arid"
+      ],
+      "default": "Temperate Oceanic"
+    },
+    "weather": {
+      "type": "categorical",
+      "choices": [
+        "Sunny",
+        "Rainy",
+        "Partly Cloudy",
+        "Cloudy",
+        "Stormy",
+        "Snowy",
+        "Foggy"
+      ],
+      "default": "Sunny"
+    },
+    "temperature_c": {
+      "type": "numeric",
+      "median": 18.2,
+      "min": -14.1,
+      "max": 42.5
+    },
+    "bedtime": {
+      "type": "categorical",
+      "choices": [
+        "23:29",
+        "00:16",
+        "23:49",
+        "23:50",
+        "22:45",
+        "23:33",
+        "23:12",
+        "00:24",
+        "23:28",
+        "23:32",
+        "22:59",
+        "23:57",
+        "23:08",
+        "23:20",
+        "23:10",
+        "00:11",
+        "23:47",
+        "23:52",
+        "00:04",
+        "00:27",
+        "23:13",
+        "01:02",
+        "23:11",
+        "23:34",
+        "23:37",
+        "23:26",
+        "23:40",
+        "23:53",
+        "00:07",
+        "23:24"
+      ],
+      "default": "23:29"
+    },
+    "sleep_hours": {
+      "type": "numeric",
+      "median": 7.2,
+      "min": 1.5,
+      "max": 11.9
+    },
+    "screen_time_hours": {
+      "type": "numeric",
+      "median": 7.8,
+      "min": 0.5,
+      "max": 16.5
+    },
+    "steps": {
+      "type": "numeric",
+      "median": 5574.0,
+      "min": 419.0,
+      "max": 42000.0
+    },
+    "exercise_minutes": {
+      "type": "numeric",
+      "median": 10.0,
+      "min": 0.0,
+      "max": 140.0
+    },
+    "caffeine_mg": {
+      "type": "numeric",
+      "median": 150.0,
+      "min": 5.0,
+      "max": 800.0
+    },
+    "mood_score": {
+      "type": "numeric",
+      "median": 6.2,
+      "min": 1.0,
+      "max": 10.0
+    },
+    "journal_note": {
+      "type": "categorical",
+      "choices": [
+        "Woke up rested.",
+        "Slept well.",
+        "Steady day, normal routine.",
+        "Nothing special.",
+        "Ordinary day.",
+        "Rainy weather kept me inside.",
+        "Gloomy, rainy day.",
+        "Woke up rested. Rainy weather kept me inside.",
+        "Slept well. Rainy weather kept me inside.",
+        "Felt groggy after oversleeping.",
+        "Stuck in front of screens all day.",
+        "Eyes are tired from all the screen time.",
+        "Slept in way too long.",
+        "Slept well. Gloomy, rainy day.",
+        "Woke up rested. Gloomy, rainy day.",
+        "Too much coffee today.",
+        "Lost count of the cups.",
+        "Barely slept.",
+        "Energy drink to get through the afternoon.",
+        "Terrible night, woke up several times.",
+        "Running on fumes today.",
+        "Hit a big step count!",
+        "Long walk made the day.",
+        "Mostly sat around.",
+        "Slept well. Eyes are tired from all the screen time.",
+        "Gloomy, stormy day.",
+        "Slept well. Long walk made the day.",
+        "Woke up rested. Long walk made the day.",
+        "Barely left the house.",
+        "Slept well. Hit a big step count!"
+      ],
+      "default": "Woke up rested."
+    }
+  },
+  "low_productivity_threshold": 5.0,
+  "mae": 0.7445859917861373,
+  "rmse": 0.9380127660207591,
+  "r2": 0.6519932643274424,
+  "target_min": 1.0,
+  "target_max": 10.0
+}
