@@ -3,5 +3,4 @@ pandas
 numpy
 scikit-learn
 joblib
-python 3.13
-pip3 freeze
+
