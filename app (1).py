@@ -17,7 +17,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from catboost import CatBoostRegressor
 import streamlit as st
 
-DATA_FILE = "everyday_life_dataset.csv"
+DATA_FILE = "cleaned_productivity_data.csv"
 TARGET = "productivity_rating"
 
 NUM_BASE = ["age", "temperature_c", "sleep_hours", "screen_time_hours",
